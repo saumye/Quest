@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/background"
+    tools:context=".FullscreenActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/fullscreen_content"
+        android:layout_width="311dp"
+        android:layout_height="73dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:ems="8"
+        android:imeOptions="actionSearch"
+        android:inputType="textCapWords"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Quest</string>
+    <string name="dummy_button">Search</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="abcd">abcd</string>
+
+</resources>
